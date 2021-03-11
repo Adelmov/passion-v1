@@ -281,3 +281,102 @@ section{
     width: 10%;
     position: relative; left: 1059px; bottom: 340px;
 }
+.contact-me{
+	width: 100%;
+	height:100px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+.contact-me p{
+	color:#3AAFA9;
+    font-size: 30px;
+    position: relative; bottom: 40%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight:bold;
+	border-bottom:2px solid #ffffff;
+}
+
+#contact{
+    font-size: 30px;
+    color: floralwhite;
+    font-weight: 700;
+    background-size: 80px;
+}
+footer p{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    position: relative; bottom: 30px;
+	font-weight:bold;
+	color:#3AAFA9;
+	line-height:20px;
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#ffffff;
+	width:600px;
+	text-align: center;
+}
+footer{
+	height:300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#e6e3e3;
+	margin:20px 10px;
+	border-radius:50%;
+}
+.social-icons{
+	display: flex;
+	
+}
+.social-icons i,.social i{
+	color:#000000;
+}
+.social-icons a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+ 
+.copyright{
+	color:#ababab;
+	font-size: 12px;
+	position: absolute;
+	left:50%;
+	bottom:10px;
+	transform: translateX(-50%);
+}
+#contact-me a:hover{
+    color:#351616;
+	transition:all ease 0.5s;
+}
+
+#contact p:hover, a:hover {
+    background-color:#3AAFA9;;
+    width: 15%;
+    height: 150%;
+    text-align: center;
+    transition:all ease 0.5s;
+    
+  }
